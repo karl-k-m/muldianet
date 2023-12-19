@@ -17,7 +17,7 @@ html {
 }
 
 .content {
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding-bottom: 3rem;
     animation: fadeIn 0.2s ease-in-out forwards;
 }

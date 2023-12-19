@@ -22,7 +22,7 @@ function LandingPage() {
 
             <div className={"landing_text"}>
               <h1>Hi, I'm Karl!</h1>
-              <p>I'm a Computer Science student at the University of Tartu and a passionate software developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam architecto at, cupiditate, dolore doloremque dolorum esse eveniet ipsum iusto natus nostrum quas quasi qui, sapiente similique sunt temporibus ullam.</p>
+              <p>I'm a Computer Science student at the University of Tartu and a passionate software developer. I am currently working on a few projects, which you can check out on the Projects page. I am also looking for a job or an internship, so if you are interested, please contact me via the Contact page. For more info on me, see the About page.</p>
             </div>
           </div>
         </div>

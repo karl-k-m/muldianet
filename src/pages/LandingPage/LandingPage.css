@@ -20,3 +20,22 @@
     margin-right: 30px;
     box-shadow: black 0 0 2px;
 }
+
+@media screen and (max-width: 768px) {
+    .landing_wrapper {
+        max-width: 80%;
+    }
+
+    .landing_container {
+        flex-direction: column;
+    }
+
+    .landing_text h1 {
+        text-align: center;
+    }
+
+    .pfp {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}

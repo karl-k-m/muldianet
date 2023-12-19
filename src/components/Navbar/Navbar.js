@@ -38,7 +38,7 @@ function Navbar() {
                             opacity: isActive ? 1 : ""
                         })}>
                             <img className="nav_icon" src={aboutIcon} alt="About" />
-                            About
+                            <p className={"desktop"}>About</p>
                         </NavLink>
                     </li>
                     <li>
@@ -47,7 +47,7 @@ function Navbar() {
                             opacity: isActive ? 1 : ""
                         })}>
                             <img className="nav_icon projects_icon" src={projectsIcon} alt="Projects" />
-                            Projects
+                            <p className={"desktop"}>Projects</p>
                         </NavLink>
                     </li>
                     <li>
@@ -56,7 +56,7 @@ function Navbar() {
                             opacity: isActive ? 1 : ""
                         })}>
                             <img className="nav_icon contact_icon" src={contactIcon} alt="Contact" />
-                            Contact
+                            <p className={"desktop"}>Contact</p>
                         </NavLink>
                     </li>
                 </ul>

@@ -16,8 +16,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 7vh;
-    padding-top: 0.5em;
+    min-height: 5vh; /* Reduced from 7vh to 5vh */
+    padding-top: 0.25em; /* Reduced for less vertical space */
+    padding-bottom: 0.25em; /* Add padding to bottom for space */
 }
 
 .navbar__container ul {
@@ -40,11 +41,25 @@ li {
     color: white;
     text-transform: uppercase;
     font-size: 1.2rem;
-    padding: 0 1.75em 8px;
+    padding: 0 1.75em 4px; /* Reduced bottom padding to lift the border */
 }
 
 .nav_icon {
     width: 1.5rem;
     height: 1.5rem;
     margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .nav_icon {
+        margin-right: 0;
+    }
+
+    .navbar__container li a {
+        padding: 0 8vw 8px; /* Adjusted for smaller screens */
+    }
 }

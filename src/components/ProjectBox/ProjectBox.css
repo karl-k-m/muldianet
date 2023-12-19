@@ -12,8 +12,8 @@
 }
 
 .projectBox_image {
-    width: 12vw;
-    height: 12vw;
+    width: 14em;
+    height: 14em;
     margin-right: 30px;
 }
 
@@ -41,4 +41,17 @@
     height: 1px;
     background: silver;
     width: 100%; /* Adjust width as needed */
+}
+
+@media screen and (max-width: 768px) {
+    .projectBox_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectBox_image {
+        width: 50vw;
+        height: 50vw;
+        margin-right: 0;
+    }
 }
