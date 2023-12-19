@@ -10,10 +10,7 @@ function ProjectBox(props) {
                     <h3 className={"text_divider"}>{props.title}</h3>
                     <p>{props.description}</p>
                     <a className={"github_link"} href={props.link} target="_blank" rel="noreferrer"><img className={"github_logo"} src={githubLogo} alt={"Project Demo"}/> <p className={"pText"}> Project on GitHub</p></a>
-                    <hr style = {{color: "silver",
-                        border: "none",
-                        height: "0.5px",
-                        background: "silver"}}/>
+                    <hr className={"bottomHr"} />
                 </div>
             </div>
         </div>

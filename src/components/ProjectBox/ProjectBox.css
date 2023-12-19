@@ -12,8 +12,8 @@
 }
 
 .projectBox_image {
-    width: 200px;
-    height: 200px;
+    width: 12vw;
+    height: 12vw;
     margin-right: 30px;
 }
 
@@ -34,4 +34,11 @@
     width: 25px;
     height: 25px;
     margin-right: 10px;
+}
+
+.bottomHr {
+    border: none;
+    height: 1px;
+    background: silver;
+    width: 100%; /* Adjust width as needed */
 }

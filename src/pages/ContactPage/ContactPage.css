@@ -1,11 +1,15 @@
 .contact_wrapper {
+    display: flex;
     align-items: center;
+    justify-content: center;
     max-width: 50%;
     margin: 0 auto;
+    height: 100vh; /* Full viewport height */
 }
 
 .contact_container {
-    margin-top: 30vh;
+    align-items: center; /* Center content horizontally */
+    width: 100%; /* Ensure it occupies the full width of the parent */
 }
 
 .contact_icons {
@@ -34,4 +38,35 @@
 
 .contact_info {
     margin-bottom: 1.25em;
+}
+
+.text_divider {
+    --text-divider-gap: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.text_divider::before, .text_divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.text_divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text_divider::after {
+    margin-left: var(--text-divider-gap);
+}
+
+.bottomHr {
+    border: none;
+    height: 1px;
+    background: silver;
+    width: 100%; /* Adjust width as needed */
 }

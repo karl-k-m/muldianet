@@ -30,10 +30,7 @@ function ContactPage() {
                             For any questions or inquiries, you can contact me at <a href={"mailto:karl.k.muldia@gmail.com"}>karl.k.muldia@gmail.com</a>
                         </p>
                     </div>
-                    <hr style = {{color: "silver",
-                        border: "none",
-                        height: "1.5px",
-                        background: "silver",}}/>
+                    <hr className={"bottomHr"} />
                 </div>
             </div>
         </div>

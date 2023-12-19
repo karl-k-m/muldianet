@@ -8,7 +8,7 @@ html {
     background: rgb(2,0,36);
     background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(13,30,40,1) 100%);
     background-size: cover;
-    padding-top: 7vh;
+    padding-top: 0.01vh;
 }
 
 @keyframes fadeIn {

@@ -20,7 +20,7 @@ function LandingPage() {
           <div className={"landing_container"}>
             <img className={"pfp"} src={pfpImage} alt={"Portrait"} />
 
-            <div className={"landing__text"}>
+            <div className={"landing_text"}>
               <h1>Hi, I'm Karl!</h1>
               <p>I'm a Computer Science student at the University of Tartu and a passionate software developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam architecto at, cupiditate, dolore doloremque dolorum esse eveniet ipsum iusto natus nostrum quas quasi qui, sapiente similique sunt temporibus ullam.</p>
             </div>
