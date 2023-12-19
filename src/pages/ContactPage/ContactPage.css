@@ -1,0 +1,37 @@
+.contact_wrapper {
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.contact_container {
+    margin-top: 30vh;
+}
+
+.contact_icons {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 1.25em auto;
+}
+
+.contact_icons a img {
+    width: 3em;
+    height: 3em;
+    margin: 0 20px;
+}
+
+.contact_info p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact_info a {
+    text-decoration: none;
+    color: white;
+    border-bottom: white 1px solid;
+}
+
+.contact_info {
+    margin-bottom: 1.25em;
+}

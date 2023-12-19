@@ -1,0 +1,45 @@
+html {
+    color: white;
+}
+
+.app-container {
+    min-height: 100vh;
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(13,30,40,1) 100%);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.content {
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+.text_divider {
+    --text-divider-gap: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.text_divider::before, .text_divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.text_divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text_divider::after {
+    margin-left: var(--text-divider-gap);
+}
