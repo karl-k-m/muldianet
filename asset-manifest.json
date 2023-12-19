@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/muldianet/static/css/main.62da0952.css",
-    "main.js": "/muldianet/static/js/main.b6f6ddf0.js",
-    "static/js/787.dab82ae2.chunk.js": "/muldianet/static/js/787.dab82ae2.chunk.js",
-    "static/media/idbrute.png": "/muldianet/static/media/idbrute.39f0b4406284b0f233a0.png",
-    "static/media/pfp_nb_zoom.png": "/muldianet/static/media/pfp_nb_zoom.f9e60fcabe1a2db4153f.png",
-    "static/media/elsa.png": "/muldianet/static/media/elsa.901f44284b0007d06361.png",
-    "static/media/muldianet.png": "/muldianet/static/media/muldianet.d6c7f74a127dad46aa87.png",
-    "static/media/projects_icon.png": "/muldianet/static/media/projects_icon.8986d110d58d127a94ef.png",
-    "static/media/ctweaks.png": "/muldianet/static/media/ctweaks.9bd7a5f871ad9c0aed51.png",
-    "static/media/contact_icon.png": "/muldianet/static/media/contact_icon.d4625fac18f9c68dfc91.png",
-    "static/media/about_icon.png": "/muldianet/static/media/about_icon.372d6038c8488b555f7b.png",
-    "index.html": "/muldianet/index.html",
-    "main.62da0952.css.map": "/muldianet/static/css/main.62da0952.css.map",
-    "main.b6f6ddf0.js.map": "/muldianet/static/js/main.b6f6ddf0.js.map",
-    "787.dab82ae2.chunk.js.map": "/muldianet/static/js/787.dab82ae2.chunk.js.map"
+    "main.css": "/static/css/main.62da0952.css",
+    "main.js": "/static/js/main.ba28a673.js",
+    "static/js/787.dab82ae2.chunk.js": "/static/js/787.dab82ae2.chunk.js",
+    "static/media/idbrute.png": "/static/media/idbrute.39f0b4406284b0f233a0.png",
+    "static/media/pfp_nb_zoom.png": "/static/media/pfp_nb_zoom.f9e60fcabe1a2db4153f.png",
+    "static/media/elsa.png": "/static/media/elsa.901f44284b0007d06361.png",
+    "static/media/muldianet.png": "/static/media/muldianet.d6c7f74a127dad46aa87.png",
+    "static/media/projects_icon.png": "/static/media/projects_icon.8986d110d58d127a94ef.png",
+    "static/media/ctweaks.png": "/static/media/ctweaks.9bd7a5f871ad9c0aed51.png",
+    "static/media/contact_icon.png": "/static/media/contact_icon.d4625fac18f9c68dfc91.png",
+    "static/media/about_icon.png": "/static/media/about_icon.372d6038c8488b555f7b.png",
+    "index.html": "/index.html",
+    "main.62da0952.css.map": "/static/css/main.62da0952.css.map",
+    "main.ba28a673.js.map": "/static/js/main.ba28a673.js.map",
+    "787.dab82ae2.chunk.js.map": "/static/js/787.dab82ae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62da0952.css",
-    "static/js/main.b6f6ddf0.js"
+    "static/js/main.ba28a673.js"
   ]
 }
