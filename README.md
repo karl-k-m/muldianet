@@ -1,2 +1,2 @@
 ## Personal website built using ReactJS.
-Link: [https://muldianet.com](https://muldianet.com)
+Link: [https://muldia.net](https://muldia.net)
