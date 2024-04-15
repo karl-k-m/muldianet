@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar/Navbar.js';
 import AboutPage from "../pages/AboutPage/AboutPage";
 import ProjectsPage from "../pages/ProjectsPage/ProjectsPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
+import gotoandplay2024 from "../pages/gotoandplay2024/gotoandplay2024";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/projects" element={<ProjectsPage />} />
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="*" element={<LandingPage />} />
+                    <Route path="/gotoandplay2024" element={gotoandplay2024()} />
                 </Routes>
             </BrowserRouter>
         </div>

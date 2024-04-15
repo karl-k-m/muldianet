@@ -27,7 +27,7 @@ function ContactPage() {
                     </div>
                     <div className={"contact_info"}>
                         <p>
-                            For any questions or inquiries, you can contact me at <a href={"mailto:karl.k.muldia@gmail.com"}>karl.k.muldia@gmail.com</a>
+                            For any questions or inquiries, you can contact me at <a href={"mailto:karl.k@muldia.net"}>karl.k@muldia.net</a>
                         </p>
                     </div>
                     <hr className={"bottomHr"} />
